@@ -1,0 +1,37 @@
+inMovies
+
+
+Desenvolvimento:
+
+
+
+
+build.gradle.kts
+/* inMovies Dependecies */
+
+// API
+implementation("com.squareup.retrofit2:retrofit:2.9.0")
+// Tratamento de Json
+implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+// Funcionalidades e novos métodos mais recentes
+implementation("androidx.appcompat:appcompat:1.4.1")
+// RecyclerView
+implementation("androidx.recyclerview:recyclerview:1.2.1")
+// ConstraintLayout
+implementation("androidx.constraintlayout:constraintlayout:2.1.1")
+// Tratamento de imagens
+implementation("com.squareup.picasso:picasso:2.71828")
+// CardView no RecyclerView
+implementation("androidx.cardview:cardview:1.0.0")
+// Material
+implementation("com.google.android.material:material:1.4.0")
+
+// Menu
+https://fonts.google.com/icons?selected=Material+Icons:menu:&icon.query=hamburger
+https://fonts.google.com/icons?selected=Material+Icons:menu:&icon.query=star
+
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5Mzc3N2M2MjcyOTNjMzE5MTQ5ZGY5ZWMxYTA2ZmEyNSIsInN1YiI6IjY2MTgyZmM0YmQ1ODhiMDE2MjExMDM1ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LqNqVWwaY-DWRpQ_nknbCSxS5S1C_nwEBEQq4SZlsRU' \
+     --header 'accept: application/json'
+

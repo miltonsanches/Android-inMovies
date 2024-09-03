@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#B20000</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="colorBlack">#202020</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorGray">#808080</color>
+
+    <color name="colorButtonNormal">#FF0000</color>
+    <color name="colorButtonPressed">#D10000</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+    <color name="colorTextPrimary">#FFFFFFFF</color>
+    <color name="colorTextSecondary">#202020</color>
+
+</resources>

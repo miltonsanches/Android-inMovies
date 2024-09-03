@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<style name="Theme.InMovies" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+    <item name="colorOnPrimary">@color/colorWhite</item>
+    <!-- Ensure text is readable on your primary color. -->
+    <item name="android:textColor">@color/colorWhite</item>
+</style>
+<style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+    <!-- Cor do texto da caixa de busca -->
+    <item name="android:textColor">@color/colorWhite</item>
+    <!-- Cor do texto de sugestão -->
+    <item name="android:textColorHint">@color/colorGray</item>
+    <!-- Cor de fundo da caixa de busca -->
+    <item name="android:background">@color/colorBlack</item>
+</style>
+</resources>

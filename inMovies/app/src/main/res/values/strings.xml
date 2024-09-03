@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">inMovies</string>
+    <string name="title_activity_movie_list">MovieListActivity</string>
+    <string name="search" />
+    <string name="movies">All Movies</string>
+    <string name="myfavorites">My Favorites</string>
+    <string name="genres">Genres</string>
+    <string name="exit">Exit</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+</resources>
